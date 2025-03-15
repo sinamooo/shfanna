@@ -557,11 +557,9 @@ footer {
       margin: 0 0.5rem;
   }
 
-  #about-section .headshot {
-      width: 18rem;
-      height: 18rem;
-      border-radius: 50%;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  #profile-section picture img {
+    width: 18rem;
+    height: 18rem;
   }
 
   #projects-section .project-box {
