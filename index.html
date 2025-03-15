@@ -4,7 +4,9 @@
     <link href="https://fonts.googleapis.com/css?family=KoHo&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link href="./css/main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shfannaa</title>
 </head>
 <body>
@@ -18,177 +20,310 @@
                 <a href="#projects-section">Projects</a>
                 <a href="#arts-section">Arts</a>
                 <a href="#skills-section">Skills</a>
+                <a href="https://wa.link/6wi7te">
+                    <img src="images/chat.png" alt="Deskripsi Gambar">
+                </a>
             </div>
         </nav>
     </header>
-   
-    <section id="about-section">
-        <h2>About Me</h2>
-            <picture>
-                <img src="images/tulip.jpg">
-            </picture>
-        <div class="bio">
-            <p>
-                Hey, I'm Shifa, and I'm a senior majoring in Informatics Engineering. Right now, I'm wrapping up my studies while diving into web design and development as a freelancer. 
-                I've had this deep love for art since I was a kid, and it's still a huge part of my life.
-            </p>
-            <br>
-            <p>
-                Outside of career and academics, I enjoy playing making videos, watching movies, and crafting!
-            </p>
-        </div>
-        <div class="social-links">
-            <a href="https://www.instagram.com/shfannaa/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://www.tiktok.com/@sipauo/" target="_blank">
-                <i class="fa-brands fa-square-youtube"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/shifanadia" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://www.youtube.com/@sinapages" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
+
+    <section id="profile-section">
+        <div class="left">
+            <div class="profile-content">
+                <h3>
+                    Hello
+                </h3>
+                <h1>
+                    I'm Shifa
+                </h1>
+                <h4>
+                    Freelance web Designer & Developer
+                </h4>
+                <a href="https://drive.google.com/file/d/1dirKcWqUVCWpb8ldIQU3mxvcSCfhjdYu/view?usp=drive_link" 
+                class="download-btn" target="_blank">
+                Download CV
+                 </a>             
+                <div class="social-links">
+                    <a href="https://www.instagram.com/shfannaa/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        <img src="images/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/@sipauo/" target="_blank">
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <img src="images/tiktok.png" alt="Tiktok">
+                    </a>
+                    <a href="https://www.linkedin.com/in/shifanadia" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <img src="images/linkedin.png" alt="Linkedin">
+                    </a>
+                    <a href="https://www.youtube.com/@sinapages" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <img src="images/youtube.png" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <picture>
+                    <img src="images/fotoaku.png">
+                </picture>
+            </div>
         </div>
     </section>
-    <div class="divider"></div>
-    <section id="projects-section">
-        <h2>Projects</h2>
     
+    <section id="about-section">
+        <div class="about-title">
+            <h2>About Me </h2> 
+        <div class="about-content">
+          <picture>
+            <img src="images/tulip.jpg" alt="Gambar Tulip">
+          </picture>
+          <div class="bio">
+            <p>Hello, I'm Shifa, and I'm a senior majoring in Informatics Engineering. Right now, I'm wrapping up my studies while diving into web design and development as a freelancer. I've had this deep love for art since I was a kid, and it's still a huge part of my life.</p>
+            <p>I enjoy blending creativity with technology, whether it's through designing intuitive user interfaces, coding interactive websites, or bringing digital illustrations to life. My passion for art extends beyond the screen—I love experimenting with different mediums, from traditional sketches to modern digital art.</p>
+            <p>
+              Outside of career and academics, I enjoy making videos, watching movies, and crafting! and tulips are my favorite flowers 🌷
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section id="projects-section">
         <!-- UI/UX Projects Subsection -->
         <div class="project-subsection">
-            <h3>UIUX</h3>
+            <div class="about-title">
+                <h2>Projects</h2>
+                <h3>UI/UX</h3>
+
+                <div #swiperRef="" class="swiper card-swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.figma.com/design/aBnpEw3AIUNco2JROcpjJA/Personal-web?node-id=0-1&t=5SCnVFxWznrKmZXZ-1" target="_blank" class="project-box">
+                            <picture>
+                                <img src="images/preview.png">
+                            </picture>
+                            <h4>Personal Web</h4>
+                            <h5><em>Figma</em></h5>
+                            <p>This is my own personal website for storing all of the portfolio that I have created.</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-box">
+                            <picture>
+                                <img src="images/comingsoon.png" >
+                            </picture>
+                            <h4>??????</h4>
+                            <h5><em>Whats the next???</em></h5>
+                            <p>Stay tune.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-box">
+                            <picture>
+                                <img src="images/comingsoon.png" >
+                            </picture>
+                            <h4>??????</h4>
+                            <h5><em>Whats the next???</em></h5>
+                            <p>Stay tune.</p>
+                        </div>
+                            
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-box">
+                            <picture>
+                                <img src="images/comingsoon.png" >
+                            </picture>
+                            <h4>??????</h4>
+                            <h5><em>Whats the next???</em></h5>
+                            <p>Stay tune.</p>
+                        </div>
+                            
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-box">
+                            <picture>
+                                <img src="images/comingsoon.png" >
+                            </picture>
+                            <h4>??????</h4>
+                            <h5><em>Whats the next???</em></h5>
+                            <p>Stay tune.</p>
+                        </div>
+                            
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Software Projects Subsection -->
+        <div class="project-subsection">
+            <h3>Software</h3>
             <div #swiperRef="" class="swiper card-swiper">
                 <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="https://github.com/stephanieran/floppy-fish" target="_blank" class="project-box">
+                    <a href="https://sinamooo.github.io/WEATHER-APP/" target="_blank" class="project-box">
                         <picture>
-                            <img src="images/comingsoon.png" alt="Floppy Fish">
+                            <img src="images/cuaca.png">
                         </picture>
-                        <h4>Floppy Fish</h4>
-                        <h5><em>Java</em></h5>
-                        <p>Floppy Fish is a spinoff of Flappy Bird built in Java. Instead of gravity pulling the bird down, the buoyancy of the water pushes the fish up.</p>
+                        <h4>Weather App</h4>
+                        <h5><em>VScode</em></h5>
+                        <p>I created that website from the ASMRProg YouTube channel.</p>
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="https://github.com/stephanieran/circles" target="_blank" class="project-box">
+                    <div class="project-box">
                         <picture>
-                            <img src="images/comingsoon.png" alt="Circles">
+                            <img src="images/comingsoon.png" >
                         </picture>
-                        <h4>Circles</h4>
-                        <h5><em>Swift, Firebase</em></h5>
-                        <p>Circles is a photo sharing app with daily prompts to encourage small groups of families and friends to stay in touch.</p>
-                    </a>
+                        <h4>??????</h4>
+                        <h5><em>Whats the next???</em></h5>
+                        <p>Stay tune.</p>
+                    </div>
+                        
+                    
                 </div>
                 <div class="swiper-slide">
-                    <a href="https://github.com/stephanieran/github-issues" target="_blank" class="project-box">
+                    <div class="project-box">
                         <picture>
-                            <img src="images/comingsoon.png" alt="Github Issues">
+                            <img src="images/comingsoon.png" >
                         </picture>
-                        <h4>Github Issues</h4>
-                        <h5><em>Swift, GitHub REST API</em></h5>
-                        <p>Github Issues is an iOS mobile application to streamline open/closed GitHub Issues posted in popular open-source repos for simple access.</p>
-                    </a>
+                        <h4>??????</h4>
+                        <h5><em>Whats the next???</em></h5>
+                        <p>Stay tune.</p>
+                    </div>
+                        
+                    
                 </div>
                 <div class="swiper-slide">
-                    <a href="https://github.com/stephanieran/chibi-luffy" target="_blank" class="project-box">
+                    <div class="project-box">
                         <picture>
-                            <img src="images/comingsoon.png" alt="Chibi Luffy">
+                            <img src="images/comingsoon.png" >
                         </picture>
-                        <h4>Chibi Luffy</h4>
-                        <h5><em>Swift, GitHub REST API</em></h5>
-                        <p>Chibi Luffy is an Instagram bot that reposts anime memes scraped from Reddit.</p>
-                    </a>
+                        <h4>??????</h4>
+                        <h5><em>Whats the next???</em></h5>
+                        <p>Stay tune.</p>
+                    </div>
+                        
+                    
                 </div>
                 <div class="swiper-slide">
-                    <a href="https://github.com/stephanieran/functional-adventure" target="_blank" class="project-box">
+                    <div class="project-box">
                         <picture>
-                            <img src="images/comingsoon.png" alt="Functional Adventure">
+                            <img src="images/comingsoon.png" >
                         </picture>
-                        <h4>Functional Adventure</h4>
-                        <h5><em>Haskell</em></h5>
-                        <p>Functional adventure is a text-based adventure game with the goal of traversing the map to find a specific item.</p>
-                    </a>
+                        <h4>??????</h4>
+                        <h5><em>Whats the next???</em></h5>
+                        <p>Stay tune.</p>
+                    </div>
+                        
                 </div>
                 </div>
             </div>
         </div>
-    <div class="v2_3">
-        <div class="v15_2"></div>
-        <div class="v24_182"></div>
-        <span class="v5_2">@SHFANNAA</span>
-        <span class="v13_9">About</span>
-        <span class="v28_186">About</span>
-        <div class="v12_8">
-            <div class="v9_10"></div>
-            <div class="v12_4"></div>
-            <div class="v9_12"></div>
+    </section>
+    
+    <section id="arts-section">
+        <h2>Art Gallery</h2>
+        <div class="gallery-container">
+            <!-- Vertical Navigation -->
+            <div class="vertical-nav">
+                <button class="arrow up">▲</button>
+                <div class="nav-items">
+                    <p>Handicraft</p>
+                    <p>Sketch</p>
+                    <p class="active">Digital Art</p>
+                    <p>Scrapbook</p>
+                    <p>Hand Drawing</p>
+                </div>
+                <button class="arrow down">▼</button>
+            </div>
+
+            <!-- Horizontal Swipe Section -->
+            <div class="horizontal-swipe-container">
+                <div class="horizontal-swipe-section">
+                    <div class="swipe-item ">
+                        <img src="images/ad1.avif" alt="Digital Art 1">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad2.avif" alt="Digital Art 2">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad3.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad4.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad5.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad6.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad7.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad8.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad9.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad10.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad11.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad12.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad13.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad14.avif" alt="Digital Art 3">
+                    </div>
+                    <div class="swipe-item">
+                        <img src="images/ad15.avif" alt="Digital Art 3">
+                    </div>
+                </div>
+               
+            </div>
         </div>
-        <div class="v28_188">
-            <span class="v28_187">About</span>
-            <span class="v16_193">Art</span>
-            <span class="v13_11">Projects</span>
-            <span class="v13_15">Skills</span>
-            <div class="name"></div>
+    </section>
+    
+    <section id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <i class="fa-brands fa-capcut"></i>
+            <img src="images/capcut.png" alt="capcut">
+            <i class="fa-brands fa-canva"></i>
+            <img src="images/canva.png" alt="canva">
+            <i class="fa-brands fa-figma"></i>
+            <img src="images/figma.png" alt="figma">
+            <i class="fa-brands javascript"></i>
+            <img src="images/javascript.png" alt="javascript">
+            <i class="fa-brands krita"></i>
+            <img src="images/krita.png" alt="krita">
         </div>
-        <span class="v14_21">Hi!</span>
-        <span class="v14_22">Hello</span>
-        <div class="v14_25"></div>
-        <span class="v14_23">I'm Shifa</span>
-        <span class="v16_184">About Me</span>
-        <span class="v16_192">Projects</span>
-        <span class="v20_155">Art Gallery</span>
-        <span class="v21_174">Skills</span>
-        <span class="v14_24">Freelance web Designer & Developer</span>
-        <div class="v14_29">
-            <div class="v14_27"></div>
-            <span class="v14_28">Download CV</span>
-        </div>
-        <div class="v16_183">
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-        </div>
-        <span class="v16_189">Lorem ipsum dolor sit amet consectetur. Vitae ut eu ligula pellentesque nunc. Aenean et adipiscing aliquam urna varius. Interdum id et fusce enim purus bibendum nisl proin odio. Enim in nulla volutpat aliquam enim semper. Ipsum nunc lacus eget massa vitae. Nulla congue dapibus vel mattis amet mauris quis.</span>
-        <div class="name"></div>
-        <div class="v16_194"></div>
-        <div class="v16_195"></div>
-        <div class="v16_196"></div>
-        <div class="name"></div>
-        <div class="name"></div>
-        <div class="v19_90"></div>
-        <div class="v19_95"></div>
-        <div class="v19_103"></div>
-        <div class="name"></div>
-        <div class="name"></div>
-        <div class="name"></div>
-        <span class="v19_127">Hello</span>
-        <span class="v19_128">Lorem ipsum dolor sit amet consectetur. Posuere nisl purus.</span>
-        <span class="v19_131">Hello</span>
-        <span class="v19_132">Lorem ipsum dolor sit amet consectetur. Posuere nisl purus.</span>
-        <div class="v19_140"></div>
-        <span class="v19_141">Lorem ipsum dolor sit amet consectetur. Posuere nisl purus.</span>
-        <span class="v19_142">Hello</span>
-        <div class="v19_151"></div>
-        <span class="v18_8">Software</span>
-        <div class="v19_121"></div>
-        <div class="v21_169"></div>
-        <div class="v20_156"></div>
-        <span class="v20_157">Digital Art</span>
-        <span class="v21_158">Scrapbook</span>
-        <span class="v21_160">Handicraft</span>
-        <span class="v21_159">Hand Drawing</span>
-        <span class="v21_161">Sketch</span>
-        <div class="v21_166"></div>
-        <div class="v21_167"></div>
-        <div class="v21_168"></div>
-        <div class="figma"></div>
-        <div class="capcut"></div>
-        <div class="canva"></div>
-        <div class="javascript"></div>
-        <span class="v24_180">© 2025 Shfannaa. All rights reserved.</span>
-    </div>
-</body>
+    </section>
+     <!-- Swiper JS -->
+     <footer>
+        <p>&copy; <span id="year"></span> Shfannaa. All Rights Reserved.</p>
+    </footer>
+     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Automatically update the copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Initialize Swiper
+            const swiper = new Swiper(".card-swiper", {
+                centeredSlides: false,
+                spaceBetween: 0,
+                slidesPerView: 'auto'
+            });
+        });
+    </script>
+  </body>
 </html>
