@@ -601,7 +601,7 @@ footer {
 @media (max-width: 992px) {
   nav {
       background-color: #D8E9D6; /* Warna pastel hijau */
-      padding: 0.8rem 1.5rem;
+      padding: 0 1rem;
   }
 
   nav .left a {
@@ -636,7 +636,7 @@ footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.6rem 1rem;
+      padding: 0 1rem;
       background-color: #D8E9D6;
   }
 
@@ -670,7 +670,7 @@ footer {
 
 @media (max-width: 576px) {
   nav {
-      padding: 0.5rem 0.8rem;
+    padding: 0 1rem;
   }
 
   nav .left a {
