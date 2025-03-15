@@ -535,13 +535,22 @@ footer {
 /* Media Queries for Responsiveness */
 @media (min-width: 1690px) {
   .swiper-wrapper {
-      justify-content:center;
+      justify-content: center;
   }
 }
 
 @media (max-width: 992px) {
+  nav {
+      background-color: #D8E9D6; /* Warna pastel hijau */
+      padding: 0 1rem;
+      width: 100%;
+  }
+
   nav .left a {
       font-size: 1.25rem;
+      font-weight: bold;
+      color: #333;
+      width: 100%;
   }
 
   nav .right a {
@@ -552,6 +561,8 @@ footer {
   #about-section .headshot {
       width: 18rem;
       height: 18rem;
+      border-radius: 50%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
 
   #projects-section .project-box {
@@ -564,8 +575,18 @@ footer {
 }
 
 @media (max-width: 768px) {
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+      background-color: #D8E9D6;
+      width: 100%;
+  }
+
   nav .left a {
       font-size: 1.25rem;
+      font-weight: bold;
   }
 
   nav .right a {
@@ -588,89 +609,13 @@ footer {
 
   #skills-section .skills-container {
       gap: 1.25rem;
-   }
-}
-
-/* Media Queries for Responsiveness */
-@media (min-width: 1690px) {
-  .swiper-wrapper {
-      justify-content: center;
-  }
-}
-
-@media (max-width: 992px) {
-  nav {
-      background-color: #D8E9D6; /* Warna pastel hijau */
-      padding: 0 1rem;
-  }
-
-  nav .left a {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #333;
-  }
-
-  nav .right a {
-      font-size: 1rem;
-      margin: 0 0.6rem;
-  }
-
-  #about-section .headshot {
-      width: 14rem;
-      height: 14rem;
-      border-radius: 50%;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  #projects-section .project-box {
-      flex: 0 0 14rem; /* Lebih proporsional */
-  }
-
-  #skills-section i {
-      font-size: 2.2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 1rem;
-      background-color: #D8E9D6;
-  }
-
-  nav .left a {
-      font-size: 1.1rem;
-      font-weight: bold;
-  }
-
-  nav .right a {
-      font-size: 0.95rem;
-      margin: 0 0.4rem;
-  }
-
-  #about-section .headshot {
-      width: 13rem;
-      height: 13rem;
-  }
-
-  #projects-section .project-box {
-      flex: 0 0 12rem;
-  }
-
-  #skills-section i {
-      font-size: 1.9rem;
-  }
-
-  #skills-section .skills-container {
-      gap: 1.2rem;
   }
 }
 
 @media (max-width: 576px) {
   nav {
-    padding: 0 1rem;
+      padding: 0 1rem;
+      width: 100%;
   }
 
   nav .left a {
@@ -714,3 +659,4 @@ footer {
       color: #555;
   }
 }
+
