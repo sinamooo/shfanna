@@ -590,7 +590,7 @@ footer {
       margin: 0 0.375rem;
   }
 
-  #about-section .headshot {
+  #about-section picture img {
       width: 16rem;
       height: 16rem;
   }
@@ -624,7 +624,8 @@ footer {
   }
 
   #about-section picture img {
-      max-width: 160px;
+    width: 12rem;
+    height: 12rem;
   }
 
   #projects-section .swiper-slide {
