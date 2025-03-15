@@ -73,9 +73,10 @@ nav .right a img:hover {
 }
 
 #profile-section {
-  max-width: 1200px;
+  max-width: 100%;
+    padding: 0 5%;
   margin: 2rem auto;
-  padding: 0 10%;
+ 
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -146,13 +147,14 @@ nav .right a img:hover {
   text-align: right;
   position: relative;
   padding-top: 50px; /* Sesuaikan nilai ini */
-  padding-right: 320px; /* Sesuaikan nilai ini agar gambar tidak menutupi text */
+  max: width 50%; ;
+  padding-right: 100px;  /* Sesuaikan nilai ini agar gambar tidak menutupi text */
 }
 
 #profile-section picture {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  max-width: 100%;
+  right: auto;
 }
 
 #profile-section picture img {
