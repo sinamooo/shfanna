@@ -347,15 +347,15 @@ p {
   color: #777;
 }
 
-/* Arts Section */
-#arts-section {
+ /* Arts Section */
+ #arts-section {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
   width: 100%;
 }
 
-/* Pastikan gallery-container memenuhi layar */
+/* Gallery Container */
 .gallery-container {
   display: flex;
   align-items: center;
@@ -363,70 +363,35 @@ p {
   gap: 20px;
   width: 90vw;
   margin: auto;
-  overflow: hidden; /* Hindari overflow yang tidak perlu */
+  overflow: hidden;
 }
 
-/* Navigasi vertikal */
-.vertical-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex: 0 0 15%;
-}
 
-.vertical-nav p {
-  font-size: 18px;
-  color: #000000;
-  margin: 5px 0;
-}
 
-.vertical-nav p.active {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 60px;
-}
-.nav-arrow button {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-  color: #6b4f4f;
-}
-
-/* Wrapper utama agar swipe bisa berjalan */
+/* Horizontal swipe section */
 .horizontal-swipe-container {
   width: 100%;
   max-width: 1200px;
-  overflow-x: auto; /* Pastikan bisa di-scroll */
+  overflow-x: auto;
   scroll-behavior: smooth;
-  padding-bottom: 15px; /* Tambahkan ruang agar scrollbar terlihat */
-  position: relative; /* Pastikan elemen ini mengontrol tampilan */
+  padding-bottom: 15px;
+  position: relative;
 }
 
-/* Pastikan horizontal swipe tetap bisa scroll */
 .horizontal-swipe-section {
   display: flex;
   gap: 15px;
-  width: max-content; /* Pastikan lebarnya melebihi container */
+  width: max-content;
   white-space: nowrap;
   scroll-snap-type: x mandatory;
   padding: 10px;
-  scroll-behavior: smooth;
 }
 
-/* Ukuran swipe item agar terlihat seragam */
 .swipe-item {
-  flex: 0 0 320px; /* Ukuran tetap agar bisa di-scroll */
+  flex: 0 0 320px;
   min-width: 300px;
   max-width: 350px;
-  height: 420px; /* Sesuaikan tinggi agar terlihat proporsional */
+  height: 420px;
   scroll-snap-align: center;
   background: #ddd;
   border-radius: 20px;
@@ -435,7 +400,6 @@ p {
   align-items: center;
 }
 
-/* Atur ukuran gambar agar sesuai */
 .swipe-item img {
   width: 100%;
   height: auto;
@@ -444,7 +408,6 @@ p {
   max-height: 100%;
 }
 
-/* Paksa scrollbar selalu muncul */
 .horizontal-swipe-container::-webkit-scrollbar {
   height: 10px;
   display: block;
@@ -460,7 +423,6 @@ p {
   border-radius: 10px;
 }
 
-/* Paksa scrollbar muncul di Firefox */
 .horizontal-swipe-container {
   scrollbar-width: thin;
   scrollbar-color: #6b4f4f #fffdfd;
