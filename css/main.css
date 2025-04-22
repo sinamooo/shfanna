@@ -366,7 +366,25 @@ p {
   overflow: hidden;
 }
 
+/* deskripsi */
+.desc-art {
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-content: center;
+  flex: 0 0 15%;
+  text-align: left;
+  font-size: 100px;
+  font-weight: bold;
+  color: #000000;
+}
 
+/* Heading */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
 
 /* Horizontal swipe section */
 .horizontal-swipe-container {
